@@ -28,7 +28,7 @@ ingress:
     - host: appweb.local
       paths:
         - path: /
-          pathType: ImplementationSpecific
+          pathType: Prefix
           backend:
             service:
               name: base-apps-web
