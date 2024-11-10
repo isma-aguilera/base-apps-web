@@ -49,5 +49,6 @@ spec:
                 name: {{ $.Chart.Name }}
                 port:
                   number: {{ $.Values.service.targetPort }}
+                      {{- end }}
     {{- end }}
 {{- end }}
